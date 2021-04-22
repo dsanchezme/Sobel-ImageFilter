@@ -1,0 +1,7 @@
+//             dx = (-dst.at<uchar>(i - 1, j - 1) + dst.at<uchar>(i + 1 , j - 1)
+//					- 2*dst.at<uchar>(i - 1, j )) + 2*(dst.at<uchar>(i+1, j) -
+//					dst.at<uchar>(i-1 , j + 1) + dst.at<uchar>(i + 1, j + 1));
+//		dy = dst.at<uchar>(i - 1, j - 1) + 2*dst.at<uchar>(i , j - 1)
+//					+ dst.at<uchar>(i+1, j+1) - dst.at<uchar>(i - 1, j+1) -
+//					2*dst.at<uchar>(i, j+1 ) - dst.at<uchar>(i + 1, j + 1);
+
